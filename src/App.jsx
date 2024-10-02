@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <h1>Hello User {2 + 2}</h1>
-    </>
+
+      <h1 className='text-blue-400  text-4xl'>Hello</h1>  </>
   )
 }
 
